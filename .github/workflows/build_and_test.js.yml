@@ -28,7 +28,6 @@ jobs:
         cache: 'npm'
     - name: install_dependancies
       run: npm install
-    - name: start_app
       run: npm start
     - name: run_tests
       run: npm test
